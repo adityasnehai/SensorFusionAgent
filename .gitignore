@@ -6,6 +6,7 @@ __pycache__/
 
 # Virtualenv
 venv/
+senenv/
 
 # Environment file
 .env
@@ -14,6 +15,10 @@ venv/
 data/
 outputs/
 logs/
+*.db
+sensorfusion.db
+archive.zip
+archive.tar.gz
 
 # OS
 .DS_Store
@@ -22,3 +27,7 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Generated benchmark/model artifacts
+benchmarks/results/
+models/adaptive/
