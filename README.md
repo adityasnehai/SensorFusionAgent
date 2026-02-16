@@ -62,14 +62,6 @@ SensorFusionAgent standardizes and aligns those datasets into one fused output, 
 
 ## Architecture (High Level)
 
-### Agentic Architecture Visuals
-
-![Agentic Architecture Part 1 - Orchestration](assets/agentic_architecture_1_orchestration.png)
-
-![Agentic Architecture Part 2 - Decision Loop](assets/agentic_architecture_2_decision_loop.png)
-
-Part 1 shows end-to-end async orchestration. Part 2 shows the internal planner-executor-observer safety loop.
-
 Detailed module map: `docs/ARCHITECTURE.md`
 
 ## Repository Layout
