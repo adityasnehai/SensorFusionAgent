@@ -73,7 +73,7 @@ flowchart LR
   G --> H[HQScore v4 + drift + visual data]
   H --> I[Research suggestions]
   I --> J[Persist result_json]
-  J --> K[GET /status/{job_id}]
+  J --> K[GET /status/:job_id]
   K --> L[Results Dashboard]
 ```
 
