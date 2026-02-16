@@ -1,5 +1,18 @@
 # SensorFusionAgent
 
+> AI-first sensor harmonization platform for multi-dataset IMU workflows.
+
+## Showcase
+
+### Workflow Video (Start Here)
+[Watch SensorFusionAgent Workflow](assets/SensorFusionAgent_Workflow.mp4)
+
+### Web App Preview
+![SensorFusionAgent Web Page](assets/sensorfusionagent.png)
+
+### Results Dashboard Preview
+![SensorFusionAgent Dashboard](assets/sensorfusionagent_dashboard.png)
+
 SensorFusionAgent is a local-first, async AI system for harmonizing multi-dataset sensor time series (IMU-focused), generating transparency reports, and validating alignment quality with explainable metrics and dashboards.
 
 It includes:
@@ -420,20 +433,3 @@ Output:
 - Browser console message `Unable to add filesystem: <illegal path>` is typically a browser/extension devtools issue, not backend fusion logic.
 - If research papers are empty, verify internet connectivity to OpenAlex.
 - `alignment_mode` is retained in API for compatibility, but production flow currently uses classical alignment mode.
-
-## Project Demo
-
-Add these files to `assets/`:
-
-- `assets/sensorfusionagent.png`
-- `assets/sensorfusionagent_dashboard.png`
-- `assets/SensorFusionAgent_Workflow.mp4`
-
-### Web Page
-![SensorFusionAgent Web Page](assets/sensorfusionagent.png)
-
-### Dashboard
-![SensorFusionAgent Dashboard](assets/sensorfusionagent_dashboard.png)
-
-### Workflow Video
-[Watch SensorFusionAgent Workflow](assets/SensorFusionAgent_Workflow.mp4)
