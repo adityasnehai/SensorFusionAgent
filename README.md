@@ -2,16 +2,25 @@
 
 > AI-first sensor harmonization platform for multi-dataset IMU workflows.
 
-## Showcase
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white" alt="Python 3.12+" />
+  <img src="https://img.shields.io/badge/FastAPI-Async%20API-009688?logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Next.js-Frontend-000000?logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/HQScore-v4-7B61FF" alt="HQScore v4" />
+</p>
 
-### Workflow Video (Start Here)
-[Watch SensorFusionAgent Workflow](assets/SensorFusionAgent_Workflow.mp4)
+## Product Preview
+
+<p align="center">
+  <video src="assets/SensorFusionAgent_Workflow.mp4" controls autoplay muted loop playsinline width="920"></video>
+</p>
+
+<p align="center">
+  <a href="assets/SensorFusionAgent_Workflow.mp4">Open workflow video directly</a>
+</p>
 
 ### Web App Preview
 ![SensorFusionAgent Web Page](assets/sensorfusionagent.png)
-
-### Results Dashboard Preview
-![SensorFusionAgent Dashboard](assets/sensorfusionagent_dashboard.png)
 
 SensorFusionAgent is a local-first, async AI system for harmonizing multi-dataset sensor time series (IMU-focused), generating transparency reports, and validating alignment quality with explainable metrics and dashboards.
 
@@ -433,3 +442,6 @@ Output:
 - Browser console message `Unable to add filesystem: <illegal path>` is typically a browser/extension devtools issue, not backend fusion logic.
 - If research papers are empty, verify internet connectivity to OpenAlex.
 - `alignment_mode` is retained in API for compatibility, but production flow currently uses classical alignment mode.
+
+## Results Dashboard Preview
+![SensorFusionAgent Dashboard](assets/sensorfusionagent_dashboard.png)
