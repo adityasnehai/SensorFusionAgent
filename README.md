@@ -19,8 +19,8 @@
   <a href="assets/SensorFusionAgent_Workflow.mp4">Watch high-quality MP4 version</a>
 </p>
 
-### Web App Preview
-![SensorFusionAgent Web Page](assets/sensorfusionagent.png)
+### Results Dashboard Preview
+![SensorFusionAgent Dashboard](assets/sensorfusionagent_dashboard.png)
 
 SensorFusionAgent is a local-first, async AI system for harmonizing multi-dataset sensor time series (IMU-focused), generating transparency reports, and validating alignment quality with explainable metrics and dashboards.
 
@@ -442,6 +442,3 @@ Output:
 - Browser console message `Unable to add filesystem: <illegal path>` is typically a browser/extension devtools issue, not backend fusion logic.
 - If research papers are empty, verify internet connectivity to OpenAlex.
 - `alignment_mode` is retained in API for compatibility, but production flow currently uses classical alignment mode.
-
-## Results Dashboard Preview
-![SensorFusionAgent Dashboard](assets/sensorfusionagent_dashboard.png)
