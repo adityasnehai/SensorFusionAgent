@@ -62,32 +62,13 @@ SensorFusionAgent standardizes and aligns those datasets into one fused output, 
 
 ## Architecture (High Level)
 
-```mermaid
-flowchart LR
-  A[Frontend Upload UI] --> B[POST /fuse]
-  B --> C[Job DB row created]
-  C --> D[Background fusion job]
-  D --> E[Ingestion + schema/task inference]
-  E --> F[Agentic runtime]
-  F --> G[Alignment + resampling + merge]
-  G --> H[HQScore v4 + drift + visual data]
-  H --> I[Research suggestions]
-  I --> J[Persist result_json]
-  J --> K[GET /status/:job_id]
-  K --> L[Results Dashboard]
-```
-
 ### Agentic Architecture Visuals
 
-<p align="center">
-  <img src="assets/agentic_architecture_1_orchestration.png" alt="SensorFusionAgent Agentic Architecture Part 1 - Orchestration" width="1300" />
-</p>
+![Agentic Architecture Part 1 - Orchestration](assets/agentic_architecture_1_orchestration.png)
 
-<p align="center">
-  <img src="assets/agentic_architecture_2_decision_loop.png" alt="SensorFusionAgent Agentic Architecture Part 2 - Decision Loop" width="1300" />
-</p>
+![Agentic Architecture Part 2 - Decision Loop](assets/agentic_architecture_2_decision_loop.png)
 
-<p align="center"><em>Part 1 shows end-to-end async orchestration. Part 2 shows the internal planner-executor-observer safety loop.</em></p>
+Part 1 shows end-to-end async orchestration. Part 2 shows the internal planner-executor-observer safety loop.
 
 Detailed module map: `docs/ARCHITECTURE.md`
 
