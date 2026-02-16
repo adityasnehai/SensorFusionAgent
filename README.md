@@ -77,6 +77,12 @@ flowchart LR
   K --> L[Results Dashboard]
 ```
 
+<p align="center">
+  <img src="assets/agentic_architecture.png" alt="SensorFusionAgent Agentic Architecture" width="1100" />
+</p>
+
+<p align="center"><em>Verified agentic runtime flow (planner-executor-observer safety loop + async orchestration).</em></p>
+
 Detailed module map: `docs/ARCHITECTURE.md`
 
 ## Repository Layout
