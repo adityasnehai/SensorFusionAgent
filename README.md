@@ -11,11 +11,13 @@
 
 ## Product Preview
 
-> GitHub README does not reliably autoplay embedded MP4 videos.
-> Click the preview below to open the workflow video.
-> If you want autoplay on GitHub, add `assets/SensorFusionAgent_Workflow.gif` and use that as an image.
+<p align="center">
+  <img src="assets/SensorFusionAgent_Workflow.gif" alt="SensorFusionAgent Workflow" width="920" />
+</p>
 
-[![Watch Workflow Video](assets/sensorfusionagent.png)](assets/SensorFusionAgent_Workflow.mp4)
+<p align="center">
+  <a href="assets/SensorFusionAgent_Workflow.mp4">Watch high-quality MP4 version</a>
+</p>
 
 ### Web App Preview
 ![SensorFusionAgent Web Page](assets/sensorfusionagent.png)
