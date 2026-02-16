@@ -11,13 +11,11 @@
 
 ## Product Preview
 
-<p align="center">
-  <video src="assets/SensorFusionAgent_Workflow.mp4" controls autoplay muted loop playsinline width="920"></video>
-</p>
+> GitHub README does not reliably autoplay embedded MP4 videos.
+> Click the preview below to open the workflow video.
+> If you want autoplay on GitHub, add `assets/SensorFusionAgent_Workflow.gif` and use that as an image.
 
-<p align="center">
-  <a href="assets/SensorFusionAgent_Workflow.mp4">Open workflow video directly</a>
-</p>
+[![Watch Workflow Video](assets/sensorfusionagent.png)](assets/SensorFusionAgent_Workflow.mp4)
 
 ### Web App Preview
 ![SensorFusionAgent Web Page](assets/sensorfusionagent.png)
