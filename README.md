@@ -77,11 +77,17 @@ flowchart LR
   K --> L[Results Dashboard]
 ```
 
+### Agentic Architecture Visuals
+
 <p align="center">
-  <img src="assets/agentic_architecture.png" alt="SensorFusionAgent Agentic Architecture" width="1100" />
+  <img src="assets/agentic_architecture_1_orchestration.png" alt="SensorFusionAgent Agentic Architecture Part 1 - Orchestration" width="1300" />
 </p>
 
-<p align="center"><em>Verified agentic runtime flow (planner-executor-observer safety loop + async orchestration).</em></p>
+<p align="center">
+  <img src="assets/agentic_architecture_2_decision_loop.png" alt="SensorFusionAgent Agentic Architecture Part 2 - Decision Loop" width="1300" />
+</p>
+
+<p align="center"><em>Part 1 shows end-to-end async orchestration. Part 2 shows the internal planner-executor-observer safety loop.</em></p>
 
 Detailed module map: `docs/ARCHITECTURE.md`
 
